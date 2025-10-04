@@ -1,0 +1,16 @@
+<html>
+    <script>
+        let x = 20
+        console.log("x", x)
+
+        {
+            // Aqui a váriavel "x" é indefinida, pois let vale apenas para o escopo "pai"
+            console.log("x", x)
+            x = 20
+            let y = 30
+        }
+        console.log("x", x)
+        // Aqui a váriavel "y" é indefinida, pois let y = 30 está no escopo acima
+        console.log("y", y)
+    </script>
+</html>

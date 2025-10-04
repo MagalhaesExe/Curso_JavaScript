@@ -1,0 +1,15 @@
+<html>
+    <script>
+        // Const não pode ser alterada, 
+        // e ela precisa de um inicializador, ou seja, não pode ser declarada sem valor
+        const x = 10
+        console.log("x", x)
+        x = 20 // Irá mostrar um erro no console
+        {
+            console.log("x", x)
+            const y = 30
+        }
+        console.log("x", x)
+        console.log("y", y) // Não acessível fora do seu contexto
+    </script>
+</html>
