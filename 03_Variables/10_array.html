@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head> 
+    <script>
+        // váriavel + índice
+        // const persons = ["Felipe", "Ana", "João"] -> 0, 1, 2
+        //persons[999] = "Zé" -> não seria uma boa prática
+
+        const persons = [
+            {name: "Felipe", age: 20},
+            {name: "Ana", age: 43},
+            {name: "João", age: 22},
+        ] // Não é boa prática misturar tipos dentro de um array
+        
+
+        console.log(persons[0]) // Felipe, 20
+        console.log(persons[1]) // Ana, 43
+        console.log(persons[2]) // João, 22
+        console.log(persons[3]) // Undefined
+        console.log(persons) // Mostrará os elementos dentro do array
+        console.log(persons.length) // Mostrará o tamanho do array 
+
+    </script>
+</html>

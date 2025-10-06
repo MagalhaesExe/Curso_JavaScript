@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <script>
+        const person = {
+            name: "Alex",
+            age: 20,
+            address: {
+                street: "Rua 1",
+                city: "São Paulo",
+            },
+        }
+
+        person.name = "Felipe" // Const como Object permite alteração de valor da váriavel
+        person.hair = "Black" // Object permite acrescentar 
+
+        console.log(person)
+        console.log(person.name) // Alex
+        console.log(person.age) // 20
+
+        console.log(
+            `${person.name} tem ${person.age} anos e reside na cidade de ${person.address.city}.`
+        ) // Alex tem 20 anos e reside na cidade de São Paulo.
+    </script>
+</html>

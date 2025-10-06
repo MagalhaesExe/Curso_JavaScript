@@ -1,0 +1,23 @@
+<html>
+    <script>
+        let name, age
+        name = "Alex"
+        age = 20
+        address = {
+            street: "Rua Central",
+            city: "São Paulo"
+        }
+
+        console.log("name", name)
+        console.log("age", age)
+        
+        // Concatenação
+        console.log(name + " tem " + age + " anos. E reside em " + JSON.stringify
+            (address)
+        ) // Consegue transformar um objeto em string
+        
+        // Interpolação
+        console.log(`${name} tem ${age} anos. E reside em ${address}`) // Não consegue transformar um objeto em string 
+        console.log(`${name} tem ${age + 1} anos`) 
+    </script>
+</html>
