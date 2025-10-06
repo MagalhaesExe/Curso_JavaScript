@@ -9,4 +9,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `01_Structure/`     | Exemplo de estrutura de código em JavaScript                |
 | `02_Typing/`        | Conceitos sobre tipagens (tipos primitivos, coerção, etc.)  |
 | `03_Variables/`     | Conceitos sobre váriaveis (var, let, const)                 |
+| `04_Operators/`     | Conceitos sobre operadores básicos, precedência, comparação e etc|
 | `README.md`         | Apresentação e guia do repositório                          |
