@@ -10,5 +10,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `02_Typing/`        | Conceitos sobre tipagens (tipos primitivos, coerção, etc.)  |
 | `03_Variables/`     | Conceitos sobre váriaveis (var, let, const)                 |
 | `04_Operators/`     | Conceitos sobre operadores básicos, precedência, comparação e etc|
-| `04_Decision_Structure/`| Conceitos sobre estrutura de decisão                    |
+| `05_Decision_Structure/`| Conceitos sobre estrutura de decisão                    |
 | `README.md`         | Apresentação e guia do repositório                          |
