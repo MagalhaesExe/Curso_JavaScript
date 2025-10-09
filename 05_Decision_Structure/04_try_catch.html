@@ -1,0 +1,16 @@
+<html>
+    <script>
+        try { // Executa algo... (consulta de API, banco de dados, arquivos)
+            console.log("Consultando o banco de dados...")
+            con.select("clientes") // ponto de falha
+            throw "Erro 1032 ao conectar com o banco de dados" // disparador
+            // Caso o throw dispare, já desvia para o catch
+            console.log("outro comando...")
+        } catch (error) {   
+            alert("Erro de execução genérico.")
+            console.error(error)
+        } finally { // Opcional
+            console.log("execução final")
+        }
+    </script>
+</html>
