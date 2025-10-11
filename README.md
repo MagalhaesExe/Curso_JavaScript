@@ -12,4 +12,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `04_Operators/`     | Conceitos sobre operadores básicos, precedência, comparação e etc|
 | `05_Decision_Structure/`| Conceitos sobre estrutura de decisão                    |
 | `06_Loops/`         | Conceitos sobre laços de repetição                          |
+| `07_Functions/`     | Conceitos sobre funções                                     |
 | `README.md`         | Apresentação e guia do repositório                          |

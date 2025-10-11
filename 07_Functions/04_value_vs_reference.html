@@ -1,0 +1,20 @@
+<html>
+    <meta charset="UTF-8" />
+    <script>
+        function mult(n) {
+            n *= n
+            return n
+        }
+        let numVal = 10 // -> é passado como valor para a função
+        console.log(mult(numVal)) // 100
+        console.log(numVal) // 10
+
+        function multObj(obj) {
+            obj.value *= obj.value
+            return obj
+        }
+        const numObj = { value: 10 } // -> é passado como referência para a função
+        console.log(multObj(numObj)) // 100 
+        console.log(numObj) // 100 
+    </script>
+</html>
