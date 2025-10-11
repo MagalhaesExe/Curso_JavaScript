@@ -1,0 +1,33 @@
+<html>
+    <meta charset="UTF-8" />
+    <script>
+        // FOR
+        for (let i = 0; i <= 10; i++) {
+            console.log(i)
+        }
+        console.log("fim")
+
+        //-----------------------------------------------------------------//
+
+        // FOR IN
+        const nomes = ["Felipe", "Ana", "João"]
+        for (let i = 0; i < nomes.length; i++) {
+            console.log(nomes[i])
+        }
+        for (const nome of nomes) { // Mesmo resultado do for anterior
+            console.log(nomes[i])
+        }
+
+        //-----------------------------------------------------------------//
+        
+        // FOR OF
+        const person = {
+            name: "Alex",
+            age: 20,
+            city: "Campo Mourão"
+        }
+        for (const prop in person) {
+            console.log(`Prop: ${prop} - ${person[prop]}`) // Como acessar as propriedades de um objeto
+        }
+    </script>
+</html>
