@@ -13,5 +13,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `05_Decision_Structure/`| Conceitos sobre estrutura de decisão                    |
 | `06_Loops/`         | Conceitos sobre laços de repetição                          |
 | `07_Functions/`     | Conceitos sobre funções                                     |
-| `08_Conversion/`    | Conceitos sobre conversões (tipos)                          |
+| `08_Conversion/`    | Conceitos sobre conversões (tipos, casas decimais, manipulações)|
 | `README.md`         | Apresentação e guia do repositório                          |

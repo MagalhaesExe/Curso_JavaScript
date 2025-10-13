@@ -1,0 +1,17 @@
+<html>
+    <meta charset="UTF-8" />
+    <script>
+        let value = 1234.59
+        console.log(value.toFixed(1)) // Qtd de casas decimais, se for 1, value = 1234.6
+        console.log(Math.ceil(value)) // Arredonda pra cima -> 1235
+        console.log(Math.floor(value)) // Arredonda pra baixo -> 1234
+        console.log(Math.round(value)) // Parecido com o floor
+        // Formatação para Real
+        console.log(
+            new Intl.NumberFormat("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+            }).format(value) // 1.234,59
+        )
+    </script>
+</html>

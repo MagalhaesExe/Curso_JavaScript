@@ -1,0 +1,35 @@
+<html>
+    <script>
+        const people = [
+            {
+                id: 1,
+                name: "Alex",
+                lastName: "Magalhães",
+                bornDate: new Date(2005, 3, 15),
+                address: {
+                    city: "Campo Mourão",
+                },
+            },
+            {
+                id: 2,
+                name: "Ana Paula",
+                lastName: "de Oliveira",
+                bornDate: new Date(1980, 8, 13),
+                address: {
+                    city: "Campo Mourão",
+                },
+            },
+        ]
+
+        console.log(JSON.stringify(people)) // Conversão de um object para string / JSON
+        console.log(typeof JSON.stringify(people)) // string
+
+        // const json = 
+        //     '[{"id":1,"name":"Alex","lastName":"Magalhães", 
+        //     "bornDate":"2005-04-15T03:00:00.000Z","address":{"city":"Campo Mourão"}},
+        //     {"id":2,"name":"Ana Paula","lastName":"de Oliveira",
+        //     "bornDate":"1980-09-13T03:00:00.000Z","address":{"city":"Campo Mourão"}}]'
+        // console.log(JSON.parse(json)) -> Transforma a string/JSON para object
+
+    </script>
+</html>

@@ -9,7 +9,7 @@
         console.log(Number(a)) // NaN
         console.log(Number(true)) // Number 1
 
-        //--------------------------------------//
+        //-------------------------------------------------------------------//
 
         // Number and String <-> Boolean
         console.log(Boolean("")) // False
@@ -19,5 +19,33 @@
 
         console.log(Number(true)) // 1
         console.log(Number(false)) // 0
+
+        //-------------------------------------------------------------------//
+
+        // String <-> Date
+        // Date -> Formato ISO = Mês/Dia/Ano
+        console.log(new Date()) // Retorna a data e hora atual do computador
+        console.log(new Date('30/04/2025')) // Inválido 
+        console.log(new Date('04/30/2025')) // Válido 
+        console.log(new Date('2025-04-30')) // Válido 
+        console.log(new Date('2025 04 30')) // Válido 
+
+        console.log(new Date().toString())
+        console.log(new Date().toISOString())
+
+        //-------------------------------------------------------------------//
+
+        // String <-> Array
+        let name = "Alex Magalhães"
+        console.log(name[0])
+        for (const v of name) {
+            console.log(v) // Nome na vertical 
+        }
+
+        let values = [1, 2, 3, 4, 5, 10, 20]
+        console.log(values.join()) // Converte para uma string
+
+        // Alex Magalhães -> ["Alex", "Magalhães"]
+        console.log(name.split(",")) // Interessante quando utilizar excel -> CSV
     </script>
 </html>

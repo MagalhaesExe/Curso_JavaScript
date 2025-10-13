@@ -1,0 +1,20 @@
+<html>
+    <script>
+        let frase1 = "Olá, tudo bem?"
+        console.log(frase1.split(" ").join("")) // Juntou a frase sem conter espaços
+        
+        // Interessante para nivelar nomes em banco de dados
+        console.log(frase1.toLowerCase()) // Frase em minúsculo
+        console.log(frase1.toUpperCase()) // Frase em maiúsculo
+        console.log("alEx".toUpperCase()) // ALEX
+
+        console.log(frase1.includes('?')) // Procura o argumento que você pede, se estiver retorna true, se não, retorna false
+        console.log(frase1.toLowerCase().includes('olá')) // True
+
+        let frase2 = "João era um cara legal!"
+        console.log(frase2.replace('João', 'Paulo')) // Substitui o primeiro argumento pelo segundo
+        let value = 1234.56
+        console.log(value.toFixed(2).replace('.', ',')) // 1234,56 -> metódo antigo de internacionalização de números
+
+    </script>
+</html>
