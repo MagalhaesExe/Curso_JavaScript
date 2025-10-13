@@ -1,0 +1,17 @@
+<html>
+    <meta charset="UTF-8" />
+    <script>
+        function mult(values) {
+            for (let i = 0; i < values.length; i++) {
+                // values[i] *= values[i]
+                values[i] = func(values[i])
+            }
+            return values
+        }
+        const values = [1, 2, 3, 4, 10] 
+        
+        const func = (n) => n * n
+        
+        console.log(mult(values)) // 1, 4, 9, 16, 100
+    </script>
+</html>
