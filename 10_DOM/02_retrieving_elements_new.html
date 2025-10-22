@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Curriculum</title>
+    </head>
+    <body>
+        <img src="foto.png" width="100" />
+        <h1 id="person-name" class="text">Seu nome</h1>
+        <h2>Programador JavaScript</h1>
+        <p class="text">
+            Conhecimento em programação Frontend, Backend...
+        </p>
+        <p>
+            Para mais detalhes, visite meu
+            <a href="https://github.com/MagalhaesExe">Github</a>
+        </p>
+        <script>
+            // Acessando nós do DOM
+
+            /* Forma "antiga":
+             * document.getElementById()
+             * document.getElementByTagName()
+             * document.getElementByClassName()
+            */
+
+            // Forma moderna:
+            // document.querySelector('selector') -> O primeiro elemento 
+            // document.querySelectorAll('selector') -> Todos os elementos
+            // element.querySelector('selector')
+            // element.querySelectorAll('selector')
+
+            console.log("*", document.querySelectorAll("*")) // * -> Seletor universal
+            console.log("*", document.querySelectorAll("p *")) // p * -> Seletor universal de p (todos os p's)
+            console.log("id", document.querySelector("#person-name")) // # -> identifica que é um ID
+            console.log("tag", document.querySelectorAll("p")) // Todos os p's
+            console.log("class", document.querySelectorAll(".text"))
+            console.log("attr", document.querySelectorAll("a[href]")) // Especifica o [href] pois pode ter elementos "a" sem href
+            console.log(
+                "attr",
+                document.querySelectorAll("a[href='https://github.com/MagalhaesExe']")
+            ) // Especifica que quer apenas o link
+
+            // Iterando sobre o DOM
+            for (const el of document.querySelectorAll("*")) {
+                console.log('el', el)
+            } 
+        </script>
+    </body>
+</html>
