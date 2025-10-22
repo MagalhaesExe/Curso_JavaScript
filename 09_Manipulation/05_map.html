@@ -1,0 +1,21 @@
+<html>
+    <script>
+        const numbers = [1, 2, 3, 4, 5]
+
+        // não muda numbers e sim cria um array novo (double)
+        const double = number.map((n) => n * 2)
+        console.log(double) // 2, 4, 6, 8, 10
+
+        const fahrenheit = [0, 32, 45, 46, 47, 91, 93, 121]
+        const celcius = fahrenheit.map((t) => Math.round((t - 32) * 5)/9)
+        console.log(celcius)
+
+        const people = [
+            { name: "felipe", age: 40}, 
+            { name: "aManda", age: 14}, 
+            { name: "DAvi", age: 7} 
+        ]
+        const peopleNormalized = people.map((p) => p.name.toUpperCase()) // Todas as letras ficam em maiusculo
+        console.log(peopleNormalized)
+    </script>
+</html>

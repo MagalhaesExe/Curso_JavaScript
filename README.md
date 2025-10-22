@@ -14,5 +14,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `06_Loops/`         | Conceitos sobre laços de repetição                          |
 | `07_Functions/`     | Conceitos sobre funções                                     |
 | `08_Conversion/`    | Conceitos sobre conversões (tipos, casas decimais)          |
-| `09_Manipulation/`  | Métodos de manipulação                                      |
+| `09_Manipulation/`  | Métodos de manipulação (concatenação, filter, map, reduce)  |
 | `README.md`         | Apresentação e guia do repositório                          |

@@ -1,0 +1,34 @@
+<html>
+    <script>
+        let values = [1.5, 2, 4, 10]
+        function callback(acumulator, currentValue, index, array){
+            console.log('acumulator', acumulator)
+            console.log('currentValue', currentValue)
+            console.log('index', index)
+            console.log('array', array)
+            console.log('---')
+
+            return acumulador + 1 // Precisa do return 
+        }
+        values.reduce(callback, 0)
+
+        // Agregação
+        let sum = values.reduce((total, item) => total + item, 0) // Somátoria (iniciando com o valor zero)
+        console.log("sum", sum)
+
+        let avg = values.reduce((total, item, index) => (total + item) / (index + 1), 0) // Retorna a média
+        console.log("avg", avg)
+
+        // Map
+        let double = values.reduce((total, item) => total.concat(item * 2), []) // Retorna um array com o dobro dos valores
+
+        // Filter
+        let newValues = values.reduce((total, item) => {
+            if (item > 2){
+                total.push(item)
+            }
+            return total
+        }, [])
+        console.log("newValues", newValues) // Se item for maior que 2, então o item é colocado no array
+    </script>
+</html>
