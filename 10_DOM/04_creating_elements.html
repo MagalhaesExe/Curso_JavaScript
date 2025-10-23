@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Curriculum</title>
+    </head>
+    <body>
+        <img src="foto.png" width="100" />
+        <h1 id="person-name" class="text">Seu nome</h1>
+        <h2>Programador JavaScript</h1>
+        <p class="text">
+            Conhecimento em programação Frontend, Backend...
+        </p>
+        <p>
+            Para mais detalhes, visite meu
+            <a href="https://github.com/MagalhaesExe">Github</a>
+        </p>
+        <script>
+            const subTitleEl = document.createElement("h2")
+            subTitleEl.innerHTML = "Projetos"
+
+            const pjListEl = document.createElement("ul")
+            
+            const pjListItem1El = document.createElement("li")
+            pjListItem1El.innerHTML = "A"
+
+            const pjListItem2El = document.createElement("li")
+            pjListItem2El.innerHTML = "B"
+
+            const pjListItem3El = document.createElement("li")
+            pjListItem3El.innerHTML = "C"
+
+            pjListEl.append(pjListItem1El)
+            pjListEl.append(pjListItem2El)
+            pjListEl.append(pjListItem3El)
+
+            document.body.append(subTitleEl)
+            document.body.append(pjListEl)
+
+            for(const i = 0; i < 3; i++) {
+                pjListItem3El.innerHTML = `eCommerce ${i}`
+            }
+        </script>
+    </body>
+</html>

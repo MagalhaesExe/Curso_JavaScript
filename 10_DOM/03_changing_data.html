@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Curriculum</title>
+    </head>
+    <body>
+        <img src="foto.png" width="100" />
+        <h1 id="person-name" class="text">Seu nome</h1>
+        <h2>Programador JavaScript</h1>
+        <p class="text">
+            Conhecimento em programação Frontend, Backend...
+        </p>
+        <p>
+            Para mais detalhes, visite meu
+            <a href="https://github.com/MagalhaesExe">Github</a>
+        </p>
+        <script>
+            const titleEl = document.querySelector("#person-name") // Recupera "Seu nome"
+            console.log("titleEl value:", titleEl.innerHTML) // Mostra "Seu nome" na tela
+
+            titleEl.innerHTML = "Alex Magalhães"
+            titleEl.style.color = "blue"
+        </script>
+    </body>
+</html>
