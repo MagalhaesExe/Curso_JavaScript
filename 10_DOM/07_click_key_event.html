@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <input type="text" />
+        
+        <script>
+            const inputEl = document.querySelector("input[type=text]")
+            // inputEl.addEventListener("keydown", (event) => {
+            //     console.log("keydown")
+            // })
+
+            inputEl.addEventListener("keyup", (event) => {
+                console.log("event", `${event.key} - ${event.keyCode}`) // Retorna o caractere e o código da tabela ASCII, 
+                                                                        // mapeia teclas não visíveis 
+
+                if (event.keyCode === 13) {
+                    alert(`Tecla ENTER pressionada - ${inputEl.value}`) // Evento de enviar um texto
+                }
+            })
+
+        </script>
+    </body>
+</html>

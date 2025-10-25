@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <button>Clique me</button>
+        <a href="https://github.com/MagalhaesExe/Curso_JavaScript">Clique me</a>
+        
+        <script>
+            const button = document.querySelector("button")
+            button.addEventListener("click", () => {
+                console.log("clicou no botão")
+            })
+            const hyperlink = document.querySelector("a")
+            hyperlink.addEventListener("click", () => {
+                console.log("clicou no hyperlink")
+            })
+
+            // const hyperlink = document.querySelector("a")
+            // hyperlink.addEventListener("click", (event) => {
+            //     event.preventDefault() -> o elemento não faz o comportamento padrão
+            //     console.log("clicou no hyperlink")
+            // })
+
+        </script>
+    </body>
+</html>
