@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <style>
+            .highlight {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Título da Página</h1>
+        <button id="change-color">Alterar cor</button>       
+        <script>
+            const titleEl = document.querySelector("#title")
+            const buttonEl = document.querySelector("#change-color")
+            buttonEl.addEventListener("click", () => {
+                // if (titleEl.classList.contains("highlight")) {
+                //     titleEl.classList.remove("highlight")
+                // } else {
+                //     titleEl.classList.add("highlight")
+                // }
+                titleEl.classList.toggle("highlight") // Faz a mesma coisa que o if else acima
+                // Essas manipulações só aceitam um parâmetro
+            })
+        </script>
+    </body>
+</html>

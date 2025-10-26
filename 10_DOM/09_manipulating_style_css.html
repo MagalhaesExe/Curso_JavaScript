@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1 id="title">Título da Página</h1>
+        <button id="change-color">Alterar cor</button>       
+        <script>
+            const titleEl = document.querySelector("#title")
+            const buttonEl = document.querySelector("#change-color")
+            buttonEl.addEventListener("click", () => {
+                // Como alterar estilos em uma linha (mais compacto):
+                // titleEl.style = "color: red; font-size: 55px" // Se quiser alterar mais de um style, tem que separar por ";"
+
+                // Como alterar estilos separados:
+                titleEl.style.color = "red"
+                titleEl.style.fontSize = "55px"
+            })
+        </script>
+    </body>
+</html>
