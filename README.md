@@ -16,4 +16,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `08_Conversion/`    | Conceitos sobre conversões (tipos, casas decimais)          |
 | `09_Manipulation/`  | Métodos de manipulação (concatenação, filter, map, reduce)  |
 | `10_DOM/`           | Conceitos de DOM (Document Object Model)                    |
+| `11_Function_Promises/`| Conceitos de funções Promises (async, sync, .then, .catch)|
 | `README.md`         | Apresentação e guia do repositório                          |
