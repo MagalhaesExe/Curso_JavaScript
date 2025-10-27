@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <script>
+            const person = {
+                name: "Alex Magalhães",
+                age: 20,
+                address: {
+                    street: "Rua 5",
+                    number: "126",
+                    complement: "",
+                    district: "Centro",
+                    city: "Santa Inês",
+                    state: "MA",
+                },
+            }
+            // console.log(typeof person)
+            // console.log(person)
+
+            const personStr = JSON.stringify(person)
+            // console.log(typeof personStr)
+            // console.log(personStr)
+
+            const personObj = JSON.parse(personStr)
+            // console.log(typeof personObj)
+            // console.log(personObj)
+            
+            // console.log(personObj == person) // false
+        </script>
+    </body>
+</html>

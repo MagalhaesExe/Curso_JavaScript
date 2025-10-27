@@ -1,0 +1,12 @@
+{
+    "name":"Alex Magalhães",
+    "age":20,
+    "address":{
+        "street":"Rua 5",
+        "number":"126",
+        "complement":"",
+        "district":"Centro",
+        "city":"Santa Inês",
+        "state":"MA"
+        }
+}
