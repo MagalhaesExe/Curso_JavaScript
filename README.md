@@ -18,4 +18,5 @@ Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado
 | `10_DOM/`           | Conceitos de DOM (Document Object Model)                    |
 | `11_Function_Promises/`| Conceitos de funções Promises (async, sync, .then, .catch)|
 | `12_JSON/`          | Conceitos de JSON (.stringfy, .parse)                       |
+| `13_Ajax/`          | Conceitos de Ajax (comunicação entre navegador e servidor)  |
 | `README.md`         | Apresentação e guia do repositório                          |
