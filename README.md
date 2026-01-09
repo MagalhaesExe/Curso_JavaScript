@@ -2,7 +2,7 @@
 
 Repositório de estudos do curso de JavaScript, do nível iniciante ao avançado.
 
-## 🧠 Estrutura do repositório
+## Estrutura do repositório
 
 | Pasta / Arquivo     | Descrição                                                   |
 |---------------------|-------------------------------------------------------------|
